@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<psalm
+        errorLevel="3"
+        resolveFromConfigFile="true"
+        xmlns="https://getpsalm.org/schema/config"
+>
+    <projectFiles>
+        <directory name="."/>
+        <ignoreFiles>
+            <directory name=".github"/>
+            <directory name=".vagrant"/>
+            <directory name="vagrant"/>
+            <directory name="vendor"/>
+        </ignoreFiles>
+    </projectFiles>
+</psalm>
